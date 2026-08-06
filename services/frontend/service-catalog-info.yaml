@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frontend-service
+  description: "NESTED at services/frontend/ — prefixed filename: service-catalog-info.yaml. Matched by **/*catalog-info.yaml but NOT **/catalog-info.yaml"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:default/test-user
