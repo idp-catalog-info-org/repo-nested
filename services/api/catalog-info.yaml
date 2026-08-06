@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: nested-api
+  description: API entity nested at services/api/ — only found by **
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:default/test-user
+  definition: |
+    openapi: "3.0.0"
+    info:
+      title: Nested API
+      version: "1.0.0"
+    paths: {}
