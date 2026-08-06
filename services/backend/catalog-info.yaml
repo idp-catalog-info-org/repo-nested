@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backend-service
+  description: Backend service nested at services/backend/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/test-user
