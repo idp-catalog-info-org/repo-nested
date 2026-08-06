@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: legacy-script-tool
+  description: "DEEP nested at tools/scripts/ — prefixed filename: old-catalog-info.yaml. Matched by **/*catalog-info.yaml but NOT **/catalog-info.yaml"
+spec:
+  type: tool
+  lifecycle: deprecated
+  owner: user:default/test-user
