@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-root-component
+  description: "ROOT level — prefixed filename: my-catalog-info.yaml. Matched by **/*catalog-info.yaml but NOT **/catalog-info.yaml"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/test-user
