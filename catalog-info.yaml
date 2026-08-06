@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: root-component
+  description: Root level component — found by both /catalog-info.yaml and **/catalog-info.yaml
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/test-user
