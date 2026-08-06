@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: platform-system
+  description: Platform system nested at platform/
+spec:
+  owner: user:default/test-user
