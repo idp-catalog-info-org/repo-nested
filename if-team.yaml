@@ -8,6 +8,7 @@ projectIdentifier: idp_demo
 spec:
   lifecycle: ''
   leader: user:account/vikyath.harekal@harness.io
+  parent: group:account/idp
   members:
   - user:account/rahul.singhal@harness.io
   - user:account/bandaru.shashank@harness.io
