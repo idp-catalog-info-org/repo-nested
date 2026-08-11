@@ -1,0 +1,21 @@
+apiVersion: harness.io/v1
+kind: Group
+type: team
+identifier: IDP_Integrations
+name: IDP Integrations
+orgIdentifier: default
+projectIdentifier: idp_demo
+spec:
+  lifecycle: ''
+  leader: user:account/vikyath.harekal@harness.io
+  members:
+  - user:account/rahul.singhal@harness.io
+  - user:account/bandaru.shashank@harness.io
+  - user:account/rahul.chaki@harness.io
+  - user:account/deepak.bhatt@harness.io
+  profile:
+    email: idp-if@harness.io
+metadata:
+  description: IDP IF Team
+  tags:
+  - go
